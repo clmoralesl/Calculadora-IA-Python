@@ -81,7 +81,7 @@ while True:
             for llave,valor in diccionariocalculos.items():
                 print(f'Operatoria:{llave}\nResultado:{valor}')        
     elif opcionmenu == 4:
-        llaveprueba = input("Ingrese la operatoria a ingresar").capitalize()
+        llaveprueba = input("Ingrese la operatoria que desea probar:\n").capitalize()
         probarllave(llaveprueba)
     elif opcionmenu == 5:
         print('Saliendo del programa, Gracias por su preferencia')
